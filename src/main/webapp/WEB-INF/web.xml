@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee 
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+	version="6.0">
+	<display-name>student_manager</display-name>
+
+	<!-- Mặc định file index -->
+	<!-- <welcome-file-list> <welcome-file>login.jsp</welcome-file> </welcome-file-list> -->
+	<welcome-file-list>
+        <welcome-file>login</welcome-file>
+    </welcome-file-list>
+	
+	<servlet-mapping>
+		<servlet-name>default</servlet-name>
+		<url-pattern>/assets/*</url-pattern>
+	</servlet-mapping>
+
+	
+	<session-config>
+		<session-timeout>15</session-timeout> <!-- Thời gian tính bằng phút -->
+	</session-config>
+</web-app>
