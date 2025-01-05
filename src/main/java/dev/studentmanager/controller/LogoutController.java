@@ -14,7 +14,7 @@ import java.io.IOException;
  * để hủy session của người dùng và chuyển hướng về trang đăng nhập.
  * 
  * @version 1.0
- * @author Nguyen Chi Nhan,Huynh Thi Thanh Thuy, Nguyen Quoc Duy
+ * @author Nguyen Quoc Duy
  */
 @WebServlet("/logout")
 public class LogoutController extends HttpServlet {

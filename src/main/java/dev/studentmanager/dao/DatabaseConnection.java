@@ -12,10 +12,12 @@ import java.sql.SQLException;
  * @author Nguyen Quoc Duy
  */
 public class DatabaseConnection {
-    private static final String URL = "jdbc:mysql://192.168.0.115:3306/ivs_school";
-    private static final String USER = "pnvan";
-    private static final String PASSWORD = "pnvan";
-
+//    private static final String URL = "jdbc:mysql://192.168.0.115:3306/ivs_school";
+//    private static final String USER = "pnvan";
+//    private static final String PASSWORD = "pnvan";
+    private static final String URL = "jdbc:mysql://127.0.0.1:3306/ivs_school";
+    private static final String USER = "root";
+    private static final String PASSWORD = "Duy31082003@";
     /**
      * Lấy kết nối đến cơ sở dữ liệu MySQL. Phương thức này sẽ tải driver MySQL
      * và thiết lập kết nối với cơ sở dữ liệu theo thông tin cấu hình sẵn có.

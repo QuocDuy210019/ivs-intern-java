@@ -4,8 +4,8 @@ package dev.studentmanager.model;
  * Lớp này đại diện cho người dùng trong hệ thống. Nó chứa thông tin về tên đầy
  * đủ, tên người dùng, mật khẩu, email và vai trò của người dùng.
  * 
-* @version 1.0 17 Dec 2024
- * @author Nguyen Van Trong, Nguyen Quoc Duy, Nguyen Chi Nhan
+ * @version 1.0 17 Dec 2024
+ * @author Nguyen Quoc Duy
  */
 public class User {
     private String fullName;

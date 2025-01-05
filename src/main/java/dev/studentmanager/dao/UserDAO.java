@@ -12,7 +12,7 @@ import java.sql.SQLException;
  * dùng, và thêm người dùng mới.
  * 
  * @version 1.0 17 Dec 2024
- * @author Nguyen Van Trong, Nguyen Quoc Duy, Nguyen Chi Nhan
+ * @author Nguyen Quoc Duy
  */
 public class UserDAO {
 

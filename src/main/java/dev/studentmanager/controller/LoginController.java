@@ -19,7 +19,7 @@ import dev.studentmanager.model.User;
  * thông báo lỗi sẽ được hiển thị.
  * 
  * @version 1.0 17 Dec 2024
- * @author Nguyen Van Trong, Nguyen Quoc Duy, Nguyen Chi Nhan
+ * @author Nguyen Quoc Duy
  */
 @WebServlet("/login")
 public class LoginController extends HttpServlet {

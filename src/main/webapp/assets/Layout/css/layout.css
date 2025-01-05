@@ -394,3 +394,35 @@ table.summary-table .text-bold {
 	opacity: .65;
 	filter: alpha(opacity = 65)
 }
+
+.highlightRequired .input-group-addon,
+.highlightRequired input {
+	border-color: #DD4B39;
+}
+
+.highlightRequired .input-group-addon{
+	color: #a94442;
+}
+
+.highlightRequired label {
+    color: #DD4B39;
+}
+
+.messRequired {
+    background-color: #DD4B39;
+    margin: 4px 0;
+    padding-left: 6px;
+    color: white;
+}
+
+.messSucsess {
+    background-color: #00c0ef;
+    margin: 4px 0;
+    padding-left: 6px;
+    color: white;
+}
+.blockRequired {
+    border-radius: 3px;
+    padding: 1.1em 1.1em;
+    margin-bottom: 20px;
+}
